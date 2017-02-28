@@ -32,16 +32,16 @@
     <!-- Fixed Navbar  -->
     <nav id="header" >
       <div class="navbar-left">
-        Living Map
+        <img id="first-page-button" src="assets/SVG/all_assets03-18.svg">
       </div>
       <div class="navbar-right">
-        Contact
+        <div id="last-page-button">Contact</div>
       </div>
     </nav>
 
     <!-- Fixed Footer -->
     <footer id="footer">
-      <img src="assets/PNG/arrow_L.png">
+      <img id="next-page-button" src="assets/PNG/arrow_L.png">
     </footer>
 
     <div id="fullpage">
@@ -51,24 +51,27 @@
       <div class="section" id="section2">
         <h1>Turn your site data into a digital asset</h1>
         <div class="section-content">
-          <h2>Visible</h2>
-          <p>Visualise data about the site in clear,
-          easy-to-use map form. Customise the
-          map to match your brand and data
-          needs.</p>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-9">
+              <h2>Visible</h2>
+              <p>Visualise data about the site in clear,
+              easy-to-use map form. Customise the
+              map to match your brand and data
+              needs.</p>
 
-          <h2>Accessible</h2>
-          <p>Publish your site and other data to all
-          site users, on mobile, desktop, print
-          and signage.</p>
+              <h2>Accessible</h2>
+              <p>Publish your site and other data to all
+              site users, on mobile, desktop, print
+              and signage.</p>
 
-          <h2>Actionable</h2>
-          <p>Give users to access to useful site
-          data. Help them navigate more
-          quickly. Allow teams to manage and
-          respond more effectively.</p>
+              <h2>Actionable</h2>
+              <p>Give users to access to useful site
+              data. Help them navigate more
+              quickly. Allow teams to manage and
+              respond more effectively.</p>
+            </div>
+          </div>
         </div>
-
       </div>
       <div class="section" id="section-living-map">
         <h1> Living Map creates better, smarter places by bringing map data to life </h1>
@@ -476,6 +479,18 @@
 function set_gradient_height(height) {
   $("#header").animate({"height": height }, 700);
 }
+
+$('#next-page-button').click(function(){
+    $.fn.fullpage.moveSectionDown();
+});
+
+$('#first-page-button').click(function() {
+    $.fn.fullpage.moveTo(1,0);
+});
+
+$('#last-page-button').click(function() {
+    $.fn.fullpage.moveTo(9,0);
+});
 
 function initialize(){
   $("#fullpage").fullpage({

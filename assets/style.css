@@ -88,7 +88,15 @@ p {
   bottom:0px;
 }
 
-
+#next-page-button {
+  cursor: pointer;
+}
+#first-page-button {
+  cursor: pointer;
+}
+#last-page-button {
+  cursor: pointer;
+}
 /* carrousels */
 .carousel-indicators {
   position:absolute;
@@ -123,6 +131,23 @@ p {
 #section1 h1 {
   color: white;
   background:none;
+  padding-top:0;
+}
+
+/* Section 2 */
+#section2 {
+  background-image: url("dummy-background.jpg");
+  background-size: cover;
+}
+
+#section2 h1{
+  color: white;
+  background:none;
+  padding-top:0 ;
+}
+
+#section2 p {
+  font-size: 1.7em;
 }
 
 /* Section 4 */
