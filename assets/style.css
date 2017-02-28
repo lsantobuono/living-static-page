@@ -1,0 +1,191 @@
+
+@font-face {
+  font-family: 'AIG Unit';
+  src: url('Typeface/AIG Unit OT/AIG Unit Light.otf');
+}
+
+body {
+  font-family: 'AIG Unit', sans-serif;
+  background-color: #fafafa ;
+  /* background gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+19,f2f2f2+20,f2f2f2+100 */
+/*  background: #ffffff; /* Old browsers */
+/*  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 25%, #f2f2f2 26%, #f2f2f2 100%); /* FF3.6-15 */
+ /* background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 25%,#f2f2f2 26%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(to bottom, #ffffff 0%,#ffffff 25%,#f2f2f2 26%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: -40px;
+  padding: 40px;
+  background-color: white;
+  color: #003c4d;
+  font-size: 3em;
+  padding-left:15%;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #f1662b;
+  font-size: 3em;
+}
+
+p {
+  color: #003c4d;
+  font-size: 2em;
+}
+
+
+.section img {
+  width:100%;
+}
+
+.section {
+    padding-top: 40px;
+}
+
+.section-content {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 40px;
+}
+
+.navbar {
+  padding-top:1em;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 0 ;
+
+  color:white;
+  font-size: 2em;
+
+  height:4em;
+
+  border:none;
+
+  /* Navbar Gradient */
+  background: #003c4d; /* Old browsers */
+  background: -moz-linear-gradient(top, #003c4d 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #003c4d 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #003c4d 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003c4d', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.navbar-right {
+  font-size: 0.7em;
+}
+
+/* Fixed footer.
+* --------------------------------------- */
+#footer{
+  position:fixed;
+  height: 50px;
+  display:block;
+  width: 100%;
+  background: white;
+  z-index:9;
+  text-align:center;
+  color: #f2f2f2;
+  padding: 0 20px 0 0;
+  bottom:0px;
+  background-color:transparent;
+}
+
+/* carrousels */
+.carousel-indicators {
+  position:absolute;
+  top:50%;
+  left:60%;
+}
+
+.carousel-indicators li {
+  border-color: #f1662b;
+  width:15px;
+  height:15px;
+  margin-right: 2em;
+}
+
+.carousel-indicators .active {
+  background-color: #f1662b;
+  width:15px;
+  height:15px;
+  margin-right: 2em;
+}
+
+/* Section 1 */
+#section1 {
+  background-image: url("dummy-background.jpg");
+  background-size: cover;
+  margin-top: -50px; /* Overlaps navbar*/
+}
+
+#section1 h1 {
+  color: white;
+  background:none;
+}
+
+/* Section 4 */
+#section4 img {
+  width:65%;
+  height:133px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom:  3em;
+}
+
+#section4 p {
+  font-size: 1.7em;
+}
+
+/* Section Carto engine */
+/* Style for Carto Engine Carrousel */
+#section-carto-engine .carousel-indicators {
+   left:10%;
+}
+
+#section-carto-engine img {
+  width: 70%;
+}
+
+/* Section Places */
+
+#section-places .carousel-indicators {
+   left:10%;
+   top:90%;
+}
+
+#section-places img {
+  width: 70%;
+}
+
+#section-places ul li p{
+  margin:0;
+}
+
+/* Section partners */
+
+#section-partners img {
+  width:auto;
+  height:60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+#section-partners h2 {
+  font-size:2em;
+}
+
+#section-partners p {
+  font-size: 1.5em;
+}
