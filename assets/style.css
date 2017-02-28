@@ -37,7 +37,7 @@ p {
 
 .section {
   padding-top: 10em;
-  /*background-color: #fafafa ;*/
+  background-color: #fafafa ;
 }
 
 .section-content {
@@ -109,7 +109,7 @@ p {
 }
 
 .carousel-indicators li {
-  border-color: #f1662b;
+  border: 2px solid #f1662b;
   width:15px;
   height:15px;
   margin-right: 2em;
@@ -206,8 +206,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 4em;
+  margin-bottom: 4em;
 
 }
 
@@ -216,5 +216,32 @@ p {
 }
 
 #section-partners p {
+  font-size: 1.5em;
+}
+
+/* Section partners */
+
+#section-contact img {
+  width:auto;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 4em;
+
+}
+
+#section-contact h2 {
+  font-size:2.5em;
+  margin-bottom: 2em;
+}
+
+#section-contact a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color:  #003c4d;
+}
+
+#section-contact p {
   font-size: 1.5em;
 }
