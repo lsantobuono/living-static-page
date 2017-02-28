@@ -110,9 +110,9 @@ p {
 /* Section 1 */
 #section1 {
   background: none;
-  background: url("dummy-background.jpg")  no-repeat , -moz-linear-gradient(top, #003c4d 0%, #ffffff 5em, #f2f2f2  5em, #f2f2f2 100%); /* FF3.6-15 */
-  background: url("dummy-background.jpg")  no-repeat , -webkit-linear-gradient(top, #003c4d 0%,#ffffff 5em,#f2f2f2  5em,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
-  background: url("dummy-background.jpg")  no-repeat , linear-gradient(to bottom, #003c4d 0%,#ffffff  5em,#f2f2f2  5em,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, #003c4d 0%, #ffffff 10em, #f2f2f2  10em, #f2f2f2 100%),  url("dummy-background.jpg")  no-repeat ; /* FF3.6-15 */
+  background:  -webkit-linear-gradient(top, #003c4d 0%,#ffffff 10em,#f2f2f2  10em,#f2f2f2 100%), url("dummy-background.jpg")  no-repeat ; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #003c4d 0%,#ffffff  10em,#f2f2f2  10em,#f2f2f2 100%), url("dummy-background.jpg")  no-repeat ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
   background-size: cover;
 /*  margin-top: -50px;  Overlaps navbar*/
