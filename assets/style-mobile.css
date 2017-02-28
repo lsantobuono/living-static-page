@@ -1,0 +1,55 @@
+
+/* Responsive mobile Ipad Mini and smaller*/
+
+@media (max-width:768px) {
+  h1 {
+    font-size: 2em;
+    padding: 0 20px 0 20px;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em !important;
+  }
+
+  .section-content {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .navbar-right {
+    float: right !important;
+  }
+  .navbar-left {
+    float: left !important;
+  }
+
+  #section2 .row {
+    margin-top:12em;
+  }
+
+  #section2 .carousel {
+    padding-top:  3em;
+  }
+
+  #section2 .carousel-indicators {
+    left: 15%;
+    top: 15px;
+    right: initial;
+    margin-left: initial;
+  }
+
+  #section4 img{
+    width:100%;
+    height: auto;
+  }
+
+  #section-partners img {
+    width:auto;
+    height:30px;
+    margin: 1em auto 1em auto;
+  }
+}
