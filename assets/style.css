@@ -6,20 +6,12 @@
 
 body {
   font-family: 'AIG Unit', sans-serif;
-  background-color: #fafafa ;
-  /* background gradient */
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+19,f2f2f2+20,f2f2f2+100 */
-/*  background: #ffffff; /* Old browsers */
-/*  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 25%, #f2f2f2 26%, #f2f2f2 100%); /* FF3.6-15 */
- /* background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 25%,#f2f2f2 26%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
-  /*background: linear-gradient(to bottom, #ffffff 0%,#ffffff 25%,#f2f2f2 26%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
 }
 
 h1 {
   margin: 0;
   padding: 0;
-  margin-top: -40px;
+  margin-top: 1em;
   padding: 40px;
   background-color: white;
   color: #003c4d;
@@ -45,7 +37,15 @@ p {
 }
 
 .section {
-    padding-top: 40px;
+  padding-top: 40px;
+  background-color: #fafafa ;
+  /* background gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+19,f2f2f2+20,f2f2f2+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #003c4d 0%, #ffffff 10em, #f2f2f2  10em, #f2f2f2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #003c4d 0%,#ffffff 10em,#f2f2f2  10em,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #003c4d 0%,#ffffff  10em,#f2f2f2  10em,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */   
 }
 
 .section-content {
@@ -120,7 +120,11 @@ p {
 
 /* Section 1 */
 #section1 {
-  background-image: url("dummy-background.jpg");
+  background: none;
+  background: url("dummy-background.jpg")  no-repeat , -moz-linear-gradient(top, #003c4d 0%, #ffffff 5em, #f2f2f2  5em, #f2f2f2 100%); /* FF3.6-15 */
+  background: url("dummy-background.jpg")  no-repeat , -webkit-linear-gradient(top, #003c4d 0%,#ffffff 5em,#f2f2f2  5em,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: url("dummy-background.jpg")  no-repeat , linear-gradient(to bottom, #003c4d 0%,#ffffff  5em,#f2f2f2  5em,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
   background-size: cover;
 /*  margin-top: -50px;  Overlaps navbar*/
 }
