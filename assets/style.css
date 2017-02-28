@@ -37,7 +37,7 @@ p {
 
 .section {
   padding-top: 10em;
-  background-color: #fafafa ;
+  /*background-color: #fafafa ;*/
 }
 
 .section-content {
@@ -98,10 +98,14 @@ p {
   cursor: pointer;
 }
 /* carrousels */
+.carousel {
+}
 .carousel-indicators {
   position:absolute;
-  top:50%;
-  left:60%;
+  top: 430px;
+  right: 250px;
+  width: 250px;
+  left: initial;
 }
 
 .carousel-indicators li {
@@ -167,7 +171,10 @@ p {
 /* Section Carto engine */
 /* Style for Carto Engine Carrousel */
 #section-carto-engine .carousel-indicators {
-   left:10%;
+  left: 40px;
+  top: 260px;
+  right: initial;
+  margin-left: initial;
 }
 
 #section-carto-engine img {
@@ -177,8 +184,10 @@ p {
 /* Section Places */
 
 #section-places .carousel-indicators {
-   left:10%;
-   top:90%;
+  left: 40px;
+  top: 410px;
+  right: initial;
+  margin-left: initial;
 }
 
 #section-places img {
