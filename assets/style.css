@@ -11,7 +11,6 @@ body {
 h1 {
   margin: 0;
   padding: 0;
-  margin-top: 1em;
   padding: 40px;
   background-color: white;
   color: #003c4d;
@@ -37,7 +36,7 @@ p {
 }
 
 .section {
-  padding-top: 40px;
+  padding-top: 10em;
   background-color: #fafafa ;
   /* background gradient */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+19,f2f2f2+20,f2f2f2+100 */
@@ -54,48 +53,38 @@ p {
   padding-top: 40px;
 }
 
-.navbar {
-  padding-top:1em;
-  padding-left: 15%;
-  padding-right: 15%;
-  margin-bottom: 0 ;
 
-  color:white;
-  font-size: 2em;
-
-  height:4em;
-
-  border:none;
-
-  /* Navbar Gradient */
-  background: #003c4d; /* Old browsers */
-  background: -moz-linear-gradient(top, #003c4d 0%, #ffffff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #003c4d 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #003c4d 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003c4d', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+/* Fixed footer & header
+* --------------------------------------- */
+#header, #footer{
+  position:fixed;
+  height: 50px;
+  display:block;
+  width: 100%;
+  background: #333;
+  z-index:9;
+  text-align:center;
+  color: #f2f2f2;
+  padding: 20px 0 0 0;
+  background-color:transparent;
 }
 
-
+#header{
+  top:0px;
+  font-size: 2em;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: bold;
+}
 
 .navbar-right {
   font-size: 0.7em;
 }
 
-/* Fixed footer.
-* --------------------------------------- */
 #footer{
-  position:fixed;
-  height: 50px;
-  display:block;
-  width: 100%;
-  background: white;
-  z-index:9;
-  text-align:center;
-  color: #f2f2f2;
-  padding: 0 20px 0 0;
   bottom:0px;
-  background-color:transparent;
 }
+
 
 /* carrousels */
 .carousel-indicators {
