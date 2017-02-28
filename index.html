@@ -473,13 +473,28 @@
 
 <script type="text/javascript">
 
+function set_gradient_height(height) {
+  $("#header").animate({"height": height }, 700);
+}
+
 function initialize(){
   $("#fullpage").fullpage({
+      anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
       verticalCentered: false,
       resize : false,
       navigation: true,
       navigationPosition: 'right',
-      css3: true
+      css3: true,
+      onLeave: function(index, nextIndex, direction){
+          var loadedSection = $(this);
+
+          //using index
+          if($.inArray(nextIndex, [1, 2]) > -1) {
+            set_gradient_height("10em")
+          } else {
+            set_gradient_height("4em")
+          }
+      }
   });
 };
 
