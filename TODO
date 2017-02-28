@@ -1,0 +1,23 @@
+And the description:
+- Sections #1 and #2 have taller blue gradient than other sections.
+- When user scrolls from section #2 to #3 the top blue gradien has to smooth in being shorter. Same is true when user scrolls from section #3 to #2.
+- Images on sections #1, #2 and #15 when scrolled slide below the top blue gradient
+- All elements scroll above the top blue gradient 
+- Sliders such as on #3 include the visual and the text. The information is to slide in from left when users click on the small circle status bars. If users mouse is not on the slider it automatically slides every 2 seconds.
+- The orange down arrow is on every section and is a link to the next section
+- Top left logo is a link to the top section
+- Top right "Contact" text is a link to the bottom section
+- "Our clients" section has one background image with no clickable area.
+
+Section #1,#2,#15 have background images that need to slide under the blue gradient. All elements on the sections (text, images) need to slide over the blue gradient.
+Regarding you working alone or with a partner - I don't mind.
+And yes, let's agree on a fixed price
+
+
+
+
+Usar bien las fonts y saber cual va.
+Definir tamaños
+Responsive.. Ipad... firefox, chrome, Iexplorer E:
+Ver que nos pase las imagenes de la arrow hacia abajo en PNG, o convertirlas bien (porque la mia quedo media chota)
+que los puntos de los carrousels queden estaticos? o al menos que quueden en un lugar logico
