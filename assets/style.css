@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'AIG Unit';
-  src: url('Typeface/AIG Unit OT/AIG Unit Light.otf');
+  src: url('Typeface/AIG Unit OT/AIG Unit Regular.otf');
 }
 
 body {
@@ -22,7 +22,7 @@ h2 {
   margin: 0;
   padding: 0;
   color: #f1662b;
-  font-size: 3em;
+  font-size: 2.8em;
 }
 
 p {
@@ -44,6 +44,7 @@ p {
   margin-left: 15%;
   margin-right: 15%;
   padding-top: 40px;
+  height: 630px;
 }
 
 
@@ -101,28 +102,33 @@ p {
   cursor: pointer;
 }
 /* carrousels */
-.carousel {
+.carousel h2 {
+  margin-bottom: 35px;
 }
+.carousel-inner {
+  height: 100%;
+}
+
 .carousel-indicators {
   position:absolute;
   top: 430px;
-  right: 250px;
+  right: 430px;
   width: 250px;
   left: initial;
 }
 
 .carousel-indicators li {
-  border: 2px solid #f1662b;
-  width:15px;
-  height:15px;
-  margin-right: 2em;
+  border: 4px solid #f1662b;
+  width:19px;
+  height:19px;
+  margin-right: 3em;
 }
 
 .carousel-indicators .active {
   background-color: #f1662b;
-  width:15px;
-  height:15px;
-  margin-right: 2em;
+  width:19px;
+  height:19px;
+  margin-right: 3em;
 }
 
 
@@ -171,10 +177,11 @@ p {
 /* Section Carto engine */
 /* Style for Carto Engine Carrousel */
 #section-carto-engine .carousel-indicators {
-  left: 40px;
+  left: 0px;
   top: 260px;
   right: initial;
   margin-left: initial;
+  width: 260px;
 }
 
 #section-carto-engine img {
@@ -185,9 +192,10 @@ p {
 
 #section-places .carousel-indicators {
   left: 40px;
-  top: 480px;
+  top: 480px; /*520*/
   right: initial;
   margin-left: initial;
+  width: 260px;
 }
 
 #section-places  .item { /* without this rule the navigation buttons go missing in some slides */
