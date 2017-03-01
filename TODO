@@ -1,4 +1,4 @@
-OK
+Creo que estos puntos estarían, repasar al final:
 	- Sections #1 and #2 have taller blue gradient than other sections.
 	- When user scrolls from section #2 to #3 the top blue gradien has to smooth in being shorter. Same is true when user scrolls from section #3 to #2.
 	- Images on sections #1, #2 and #15 when scrolled slide below the top blue gradien
@@ -10,16 +10,19 @@ OK
 
 FALTA
 
-- All elements scroll above the top blue gradient xº
+- All elements scroll above the top blue gradient 
 - Section #1,#2,#15 have background images that need to slide under the blue gradient. All elements on the sections (text, images) need to slide over the blue gradient.
 
 FALTA +
 
 " The information is to slide in from left " En los carruseles dice eso, pero el carrusel va a la derecha a la izq dependiedno que lado le quede mas cerca, nose si se puede forzar que siempre venga de la izq. tipo dando toda la vuelta
 
-Tema Fuente: El loco nos pasó un montón, yo elegí la que me pareció mas símilar al pdf, y la verdad creo que es la misma que se usa siempre, no veo bold nunca.
+Tema Fuente: El loco nos pasó un montón de fuentes, yo elegí la que me pareció mas símilar al pdf, y la verdad creo que es la misma que se usa siempre, no veo bold nunca.
+
 Responsive.. Probar distintos telefonos del chrome iphone5,6 S6,S5? , IPAD, laptop... firefox tambien , Iexplorer?
-La flecha al final del slide largo queda mal, ej en mobile pantalla de partners, la pantalla se estira pero como esta fixed se ve a mitad de camino.
-las backgroudn images no se ajustan bien, creo que tienee que ver con que las imagenes son cuadradas, entonces no se puede hacer que se ajuste bien a la pantalla? O quiza si, ni idea.
+	Hice bastante de mobile... sigue viendose bastante mal en apaisado (de cualquier celular) , y en las pantallas tipo IPAD, sobretodo los carruseles
+
+La flecha al final de un slide que se alarga queda mal, ej en mobile pantalla de partners, la pantalla se estira pero como esta fixed se ve a mitad de camino.
+las backgroudn images no se ajustan bien, creo que tienee que ver con que las imagenes son cuadradas, entonces no se puede hacer que se ajuste bien a la pantalla? O quiza si, ni idea... quedaron un poco mejor
 que todas las cosas tengan mas z-index que la navbar ,menos los background, no pude lograr esto.. Sobretodo es importante para los titulos de slider 1, y 2 que se tapan mucho.
 El cambio del gradiente podria ser un poco mas lento o esperar medio segundo, para que se note mas .
