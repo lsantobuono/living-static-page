@@ -88,10 +88,13 @@ p {
   bottom:0px;
 }
 
-#next-page-button {
+.next-page-button {
   cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
 }
-#first-page-button {
+
+.first-page-button {
   cursor: pointer;
 }
 #last-page-button {
@@ -122,14 +125,11 @@ p {
   margin-right: 2em;
 }
 
+
 /* Section 1 */
 #section1 {
   background: url("PNG/p1.jpg") ; 
   background-size: cover;
-  /*background: -moz-linear-gradient(top, #003c4d 0%, #ffffff 10em, #f2f2f2  10em, #f2f2f2 100%),  url("dummy-background.jpg")  no-repeat ; /* FF3.6-15 */*/
-  /*background:  -webkit-linear-gradient(top, #003c4d 0%,#ffffff 10em,#f2f2f2  10em,#f2f2f2 100%), url("dummy-background.jpg")  no-repeat ; /* Chrome10-25,Safari5.1-6 */*/
-  /*background: linear-gradient(to bottom, #003c4d 0%,#ffffff  10em,#f2f2f2  10em,#f2f2f2 100%), url("dummy-background.jpg")  no-repeat ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
-/*  margin-top: -50px;  Overlaps navbar*/
 }
 
 #section1 h1 {
@@ -185,9 +185,13 @@ p {
 
 #section-places .carousel-indicators {
   left: 40px;
-  top: 410px;
+  top: 480px;
   right: initial;
   margin-left: initial;
+}
+
+#section-places  .item { /* without this rule the navigation buttons go missing in some slides */
+  padding-bottom: 12em;
 }
 
 #section-places img {
@@ -198,6 +202,19 @@ p {
   margin:0;
 }
 
+/* Section clients */
+#section-clients h1 {
+  padding-top:0;
+  padding-bottom:0;
+}
+
+#section-clients img {
+  max-height: 80vh;
+}
+#section-clients .section-content {
+  padding-top: 0;
+  margin: 0;
+}
 /* Section partners */
 
 #section-partners img {
@@ -219,7 +236,7 @@ p {
   font-size: 1.5em;
 }
 
-/* Section partners */
+/* Section contact */
 
 #section-contact img {
   width:auto;
@@ -244,4 +261,8 @@ p {
 
 #section-contact p {
   font-size: 1.5em;
+}
+
+.text-contact {
+  height:150px;
 }

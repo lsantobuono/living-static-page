@@ -1,0 +1,78 @@
+
+
+@media (max-width:1441px) and (min-width: 769px)  {
+
+  /* Section 2 */
+  #section2 p {
+    font-size: 1.4em;
+  }
+
+  /* Section Living Map */
+
+  #section-living-map .carousel-indicators {
+    top: 290px;
+  }
+
+  /* Section 4 */
+
+  #section4 img {
+    width: auto;
+  }
+
+  #section4 p {
+    font-size: 1.4em;
+  }  
+  
+  #section4 h2 {
+    font-size: 2em;
+  }
+
+   /* Section Carto Engine */
+  #section-carto-engine .carousel-indicators {
+    top: 340px;
+    right: initial;
+    margin-left: initial;
+  }
+
+  #section-carto-engine .item {
+    padding-bottom: 10em;
+  }
+
+  /* Section places */ 
+
+  #section-places .carousel-indicators {
+    top: 400px;
+    right: initial;
+    margin-left: initial;
+  }
+
+  #section-places .item {
+    padding-bottom: 10em;
+  }
+
+  #section-places p {
+    font-size: 1.5em;
+  }
+
+  /* Section partners */ 
+  #section-partners img {
+    width:auto;
+    height:50px;
+  }
+
+
+  /* Section Contact */
+  #section-contact img {
+    width:100%;
+    height:auto;
+    margin-bottom: 2em;
+  }
+
+  .text-contact {
+    height:100px;
+  }
+
+  #section-contact h2 {
+    font-size: 1.5em;
+  }
+}

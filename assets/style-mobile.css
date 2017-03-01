@@ -15,6 +15,9 @@
     font-size: 1em !important;
   }
 
+  .section {
+    padding-top: 7em;
+  }
   .section-content {
     margin-left: 5%;
     margin-right: 5%;
@@ -27,29 +30,188 @@
     float: left !important;
   }
 
-  #section2 .row {
+  /* Section 1 */
+  #section1 {
+    background-size: 200% 100%;
+    background-position: 60% 0 ;
+  }
+  /* Section 2  */
+
+  #section2 {
+    background-size: 180% 90%;
+    background-position: 80% 0 ;
+  }
+  #section2 .row {  
     margin-top:12em;
   }
 
+  #section2 .item {
+    background: white;
+    margin-left: -2em;
+    padding-left: 3em
+  }
+
+  #explore-title { /* This title in particular can't get aligned properly because its image is too small... so this fix */
+    padding-top:1em;
+  }
+
   #section2 .carousel {
-    padding-top:  3em;
+    padding-top:  10em;
   }
 
   #section2 .carousel-indicators {
     left: 15%;
-    top: 15px;
+    top: 110px;
     right: initial;
     margin-left: initial;
   }
 
+  /* Section Living Map */
+
+  #section-living-map .carousel-indicators {
+    left: 15%;
+    top: 247px;
+    right: initial;
+    margin-left: initial;
+  }
+
+   #section-living-map img {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    margin-bottom: 4em;
+   }
+
+
+  /* Section 4 */
   #section4 img{
     width:100%;
     height: auto;
   }
 
+  /* Section Carto Engine */
+  #section-carto-engine .carousel-indicators {
+    left: 15%;
+    top: 260px;
+    right: initial;
+    margin-left: initial;
+  }
+
+  #section-carto-engine img {
+    max-height: 220px;
+    width: auto;
+
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    margin-bottom: 6em;
+  }
+
+  /* Section places */
+  #section-places .carousel-indicators {
+    left: 15%;
+    top: 200px;
+    right: initial;
+    margin-left: initial;
+  }
+
+  #section-places .section-content {
+    padding-top:20px;
+  }
+
+  #section-places  .item { /* without this rule the navigation buttons go missing in some slides */
+  padding-bottom: 0;
+  }
+
+  #section-places img {
+    max-height: 180px;
+    width: auto;
+
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    margin-bottom: 3em;
+  }
+
+  /* Section partners */ 
   #section-partners img {
     width:auto;
-    height:30px;
-    margin: 1em auto 1em auto;
+    height:40px;
+    margin: 2em auto 2em auto;
+  }
+
+  #section-partners h2 {
+    font-size: 1.5em;
+  }
+ 
+  /* Section Clients */
+  #section-clients img {
+    width: auto;
+  }
+
+  /* Section Contact */
+  #section-contact img {
+    width:100%;
+    height:auto;
+    margin-bottom: 2em;
+  }
+
+  .text-contact {
+    height:100px;
+  }
+
+  #section-contact h2 {
+    font-size: 1.5em;
+  }
+}
+
+
+
+/* Iphone 5 and smaller*/
+
+@media (max-width:320px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
+  }
+
+  #section2 .carousel-indicators {
+    top: 35px;
+  }
+
+  #section2 .carousel {
+    padding-top:  4em;
+  }
+
+  #section-living-map .carousel-indicators {
+    top: 220px;
+  }
+
+  #section-carto-engine .carousel-indicators {
+    top: 180px;
+  }
+
+  #section-carto-engine img {
+    max-height: 150px;
+    margin-bottom: 4em;
+  }
+
+  #section-places img {
+    max-height: 140px;
+    margin-bottom: 2em;
+  }
+
+  #section-places .carousel-indicators {
+    top: 150px;
+  }
+
+  #section-partners img {
+      max-height: 30px;
   }
 }

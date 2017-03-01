@@ -1,25 +1,25 @@
-And the description:
-- Sections #1 and #2 have taller blue gradient than other sections.
-- When user scrolls from section #2 to #3 the top blue gradien has to smooth in being shorter. Same is true when user scrolls from section #3 to #2.
-	- Images on sections #1, #2 and #15 when scrolled slide below the top blue gradient
-- All elements scroll above the top blue gradient xº
-- Sliders such as on #3 include the visual and the text. The information is to slide in from left when users click on the small circle status bars. If users mouse is not on the slider it automatically slides every 2 seconds.
-- "Our clients" section has one background image with no clickable area.
-
+OK
+	- Sections #1 and #2 have taller blue gradient than other sections.
+	- When user scrolls from section #2 to #3 the top blue gradien has to smooth in being shorter. Same is true when user scrolls from section #3 to #2.
+	- Images on sections #1, #2 and #15 when scrolled slide below the top blue gradien
+	- Sliders such as on #3 include the visual and the text. The information is to slide in from left when users click on the small circle status bars. If users mouse is not on the slider it automatically slides every 2 seconds.
+	- "Our clients" section has one background image with no clickable area.
 	- The orange down arrow is on every section and is a link to the next section
 	- Top left logo is a link to the top section
 	- Top right "Contact" text is a link to the bottom section
 
-Section #1,#2,#15 have background images that need to slide under the blue gradient. All elements on the sections (text, images) need to slide over the blue gradient.
-Regarding you working alone or with a partner - I don't mind.
-And yes, let's agree on a fixed price
+FALTA
 
+- All elements scroll above the top blue gradient xº
+- Section #1,#2,#15 have background images that need to slide under the blue gradient. All elements on the sections (text, images) need to slide over the blue gradient.
 
+FALTA +
 
+" The information is to slide in from left " En los carruseles dice eso, pero el carrusel va a la derecha a la izq dependiedno que lado le quede mas cerca, nose si se puede forzar que siempre venga de la izq. tipo dando toda la vuelta
 
-Usar bien las fonts y saber cual va.
-Definir tamaños de letras? Yo los veo distintos en las distintas slides, lo dejo masomenos a gusto y como queda mas similar al pdf
-Responsive.. Ipad... firefox, chrome, Iexplorer E:
-Ver que nos pase las imagenes de la arrow hacia abajo en PNG, o convertirlas bien (porque la mia quedo media chota)
-que los puntos de los carrousels queden estaticos? o al menos que quueden en un lugar logico
-La flecha al final del slide largo queda mal
+Tema Fuente: El loco nos pasó un montón, yo elegí la que me pareció mas símilar al pdf, y la verdad creo que es la misma que se usa siempre, no veo bold nunca.
+Responsive.. Probar distintos telefonos del chrome iphone5,6 S6,S5? , IPAD, laptop... firefox tambien , Iexplorer?
+La flecha al final del slide largo queda mal, ej en mobile pantalla de partners, la pantalla se estira pero como esta fixed se ve a mitad de camino.
+las backgroudn images no se ajustan bien, creo que tienee que ver con que las imagenes son cuadradas, entonces no se puede hacer que se ajuste bien a la pantalla? O quiza si, ni idea.
+que todas las cosas tengan mas z-index que la navbar ,menos los background, no pude lograr esto.. Sobretodo es importante para los titulos de slider 1, y 2 que se tapan mucho.
+El cambio del gradiente podria ser un poco mas lento o esperar medio segundo, para que se note mas .

@@ -14,7 +14,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
       <!-- bootstrap JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="assets/bootstrap.min.js"></script>
 
       <!-- Scroll Overflow Js -->
 
@@ -32,6 +32,9 @@
       <!-- custom Css Mobile -->
       <link rel="stylesheet" href="assets/style-mobile.css" >
 
+      <!-- custom Css Laptop -->
+      <link rel="stylesheet" href="assets/style-laptop.css" >
+
   </head>
 
 
@@ -39,8 +42,8 @@
     <!-- Fixed Navbar  -->
     <nav id="header" >
       <div class="navbar-left">
-        <img class="hidden-xs" id="first-page-button" src="assets/SVG/all_assets03-18.svg">
-        <img class="visible-xs" id="first-page-button" src="assets/PNG/arrow_up.png">
+        <img class="hidden-sm hidden-xs first-page-button" src="assets/SVG/all_assets03-18.svg">
+        <img class="visible-sm visible-xs first-page-button" src="assets/PNG/arrow_up.png">
       </div>
       <div class="navbar-right">
         <div id="last-page-button">Contact</div>
@@ -49,7 +52,8 @@
 
     <!-- Fixed Footer -->
     <footer id="footer">
-      <img id="next-page-button" src="assets/PNG/arrow_L.png">
+      <img class="hidden-sm hidden-xs next-page-button" src="assets/PNG/arrow_L.png">
+      <img class="visible-sm visible-xs next-page-button" src="assets/PNG/arrow_S.png">
     </footer>
 
     <div id="fullpage">
@@ -61,8 +65,8 @@
         <div class="section-content">
 
           <!-- Column at right for desktop -->
-          <div class="row hidden-xs">
-            <div class="col-md-3 col-md-offset-9 ">
+          <div class="row hidden-sm hidden-xs">
+            <div class="col-md-4 col-md-offset-9 ">
               <h2>Visible</h2>
               <p>Visualise data about the site in clear,
               easy-to-use map form. Customise the
@@ -83,7 +87,7 @@
           </div>
 
           <!-- Row at bottom for mobile -->
-          <div class="row visible-xs">
+          <div class="row visible-sm visible-xs">
             <div id="carrousel-second" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carrousel-second" data-slide-to="0" class="active"></li>
@@ -124,11 +128,11 @@
             <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
                     <img src="assets/PNG/all_assets03-01.png">
                   </div>
-                  <div class="col-md-6 col-xs-12">
-                    <h2> Explore and enjoy </h2>
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <h2 id="explore-title"> Explore and enjoy </h2>
                     <p> Mobile is everywhere – we make your maps
                     accessible on very device, as well as print and
                     signage.</p>
@@ -137,10 +141,10 @@
               </div>
               <div class="item">
                 <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
                     <img src="assets/PNG/all_assets03-02.png">
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
                     <h2> Your site, your data </h2>
                     <p> Cities and site owners often under-value their geo
                     data. We turn your site information into a visible –
@@ -150,10 +154,10 @@
               </div>
               <div class="item">
                 <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
                     <img src="assets/PNG/all_assets03-03.png">
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
                     <h2> Smarter, better managed sites </h2>
                     <p> Better maps means better management – our
                     map-based tools help reduce environmental impacts
@@ -174,54 +178,111 @@
       <div class="section" id="section4">
         <h1> Turn your site data into a digital asset </h1>
         <div class="section-content">
-          <div class="row">
-            <div class="col-md-3 col-xs-6">
-              <img src="assets/PNG/all_assets03-11.png">
-              <h2>Improved user
-                experience
-              </h2>
-              <p> Intuitive end-to-end
-              experience.<br>
-              Consistent customer journey
-              across all touchpoints.<br>
-              Add data to personalise every
-              visitor experience.</p>
+          <div class="hidden-sm hidden-xs">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="assets/PNG/all_assets03-11.png">
+                <h2>Improved user
+                  experience
+                </h2>
+                <p> Intuitive end-to-end
+                experience.<br>
+                Consistent customer journey
+                across all touchpoints.<br>
+                Add data to personalise every
+                visitor experience.</p>
+              </div>
+              <div class="col-md-3 ">
+                <img src="assets/PNG/all_assets03-12.png">
+                <h2> Cost reduction </h2>
+                <p> Replace paper and PDF maps
+                with single centralised
+                database.<br>
+                Easy to update for all mobile
+                and digital applications.<br>
+                Reduce cost of signage and
+                print maps.</p>
+              </div>        
+              <div class="col-md-3">
+                <img src="assets/PNG/all_assets03-13.png">
+                <h2>  Revenue generation </h2>
+                <p> Integrate with CRM systems to
+                personalise offers and
+                marketing.<br>
+                License map to partners, e.g.
+                hotels and retailers.<br>
+                Integrate with ad-tech systems.
+                Sponsored maps for special
+                events.</p>
+              </div>        
+              <div class="col-md-3">
+                <img src="assets/PNG/all_assets03-14.png">
+                <h2>Performance
+                improvement</h2>
+                <p>Reduce navigation time for
+                staff and contractors (BIS lost
+                £9m per year through staff
+                getting lost.)<br>
+                Data analytics (energy,
+                customer flow) for space and
+                operations planning.
+                </p>
+              </div>
             </div>
-            <div class="col-md-3  col-xs-6">
-              <img src="assets/PNG/all_assets03-12.png">
-              <h2> Cost reduction </h2>
-              <p> Replace paper and PDF maps
-              with single centralised
-              database.<br>
-              Easy to update for all mobile
-              and digital applications.<br>
-              Reduce cost of signage and
-              print maps.</p>
-            </div>        
-            <div class="col-md-3  col-xs-6">
-              <img src="assets/PNG/all_assets03-13.png">
-              <h2>  Revenue generation </h2>
-              <p> Integrate with CRM systems to
-              personalise offers and
-              marketing.<br>
-              License map to partners, e.g.
-              hotels and retailers.<br>
-              Integrate with ad-tech systems.
-              Sponsored maps for special
-              events.</p>
-            </div>        
-            <div class="col-md-3  col-xs-6">
-              <img src="assets/PNG/all_assets03-14.png">
-              <h2>Performance
-              improvement</h2>
-              <p>Reduce navigation time for
-              staff and contractors (BIS lost
-              £9m per year through staff
-              getting lost.)<br>
-              Data analytics (energy,
-              customer flow) for space and
-              operations planning.
-              </p>
+          </div>
+          <div class="visible-sm visible-xs">
+            <div class="row">
+              <div class="col-sm-6 col-xs-6">
+                <img src="assets/PNG/all_assets03-11.png">
+                <h2>Improved user
+                  experience
+                </h2><br>
+                <p> Intuitive end-to-end
+                experience.<br>
+                Consistent customer journey
+                across all touchpoints.<br>
+                Add data to personalise every
+                visitor experience.</p>
+              </div>
+              <div class="col-sm-6 col-xs-6">
+                <img src="assets/PNG/all_assets03-12.png">
+                <h2> Cost reduction </h2><br>
+                <p> Replace paper and PDF maps
+                with single centralised
+                database.<br>
+                Easy to update for all mobile
+                and digital applications.<br>
+                Reduce cost of signage and
+                print maps.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-6 col-xs-6">
+                <img src="assets/PNG/all_assets03-13.png">
+                <h2>  Revenue generation </h2><br>
+                <p> Integrate with CRM systems to
+                personalise offers and
+                marketing.<br>
+                License map to partners, e.g.
+                hotels and retailers.<br>
+                Integrate with ad-tech systems.
+                Sponsored maps for special
+                events.</p>
+              </div>        
+              <div class="col-sm-6 col-xs-6">
+                <img src="assets/PNG/all_assets03-14.png">
+                <h2>Performance
+                improvement</h2><br>
+                <p>Reduce navigation time for
+                staff and contractors (BIS lost
+                £9m per year through staff
+                getting lost.)<br>
+                Data analytics (energy,
+                customer flow) for space and
+                operations planning.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -232,62 +293,113 @@
         <div class="section-content">
           <div id="carrousel-carto-engine" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <div class="row">
-                  <div class="col-md-6 col-xs-12">
+              <div class="item active"> <!-- Rows for sm and for desktop, because image is on the left on desktop but at bottom on mobile -->
+                <div class="row hidden-sm hidden-xs">
+                  <div class="col-md-6 col-sm-12">
                     <h2> Smart mapping </h2>
-                    <p> Rapid map set up.
-                    Bespoke design options.
-                    Monthly license – only pay for what you use.
+                    <p> Rapid map set up.<br>
+                    Bespoke design options.<br>
+                    Monthly license – only pay for what you use.<br>
                     Add new areas, data layers and features anytime. </p>
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 col-sm-12">
                     <img src="assets/PNG/all_assets03-04.png">
                   </div>
                 </div>
+                <div class="row visible-sm visible-xs">
+                  <div class="col-md-6 col-sm-12">
+                    <img src="assets/PNG/all_assets03-04.png">
+                  </div>
+                  <div class="col-sm-12">
+                    <h2> Smart mapping </h2>
+                    <p> Rapid map set up.<br>
+                    Bespoke design options.<br>
+                    Monthly license – only pay for what you use.<br>
+                    Add new areas, data layers and features anytime. </p>
+                  </div>
+                </div>
               </div>
               <div class="item">
-                <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                <div class="row hidden-sm hidden-xs">
+                  <div class="col-md-6 ">
                     <h2> Smart tools </h2>
-                    <p> Manage and update the map centrally.
-                    Track and analyse site usage.
+                    <p> Manage and update the map centrally.<br>
+                    Track and analyse site usage.<br>
                     Team management map views and tools.</p>
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 ">
                     <img src="assets/PNG/all_assets03-05.png">
                   </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="row">
-                  <div class="col-md-6 col-xs-12">
-                    <h2> Publish everywhere </h2>
-                    <p> Multiple maps from one core system, creating a
-                    consistent user journey:
-                    Digital and mobile
-                    Print
-                    Signage
-                    Update centrally, see everywhere instantly.
-                    </p>
+                <div class="row visible-sm visible-xs">
+                  <div class="col-sm-12">
+                    <img src="assets/PNG/all_assets03-05.png">
                   </div>
-                  <div class="col-md-6 col-xs-12">
-                    <img src="assets/PNG/all_assets03-06.png">
+                  <div class="col-sm-12">
+                    <h2 > Smart tools </h2>
+                    <p> Manage and update the map centrally.<br>
+                    Track and analyse site usage.<br>
+                    Team management map views and tools.</p>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                <div class="row hidden-sm hidden-xs">
+                  <div class="col-md-6 ">
+                    <h2> Publish everywhere </h2>
+                    <p> Multiple maps from one core system, creating a
+                    consistent user journey:
+                    Digital and mobile<br>
+                    Print<br>
+                    Signage<br>
+                    Update centrally, see everywhere instantly.
+                    </p>
+                  </div>
+                  <div class="col-md-6 ">
+                    <img src="assets/PNG/all_assets03-06.png">
+                  </div>
+                </div>
+                <div class="row visible-sm visible-xs">
+                  <div class="col-sm-12">
+                    <img src="assets/PNG/all_assets03-06.png">
+                  </div>
+                  <div class=" col-sm-12">
+                    <h2> Publish everywhere </h2>
+                    <p> Multiple maps from one core system, creating a
+                    consistent user journey:
+                    Digital and mobile<br>
+                    Print<br>
+                    Signage<br>
+                    Update centrally, see everywhere instantly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row hidden-sm hidden-xs">
+                  <div class="col-md-6 ">
                     <h2> Share and collaborate </h2>
                     <p> Share and license your map data to
-                    internal and external users and partners.
-                    Add data from third parties.
+                    internal and external users and partners.<br>
+                    Add data from third parties.<br>
                     Collaborate within teams and across
                     organisations.</p>
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 ">
                     <img src="assets/PNG/all_assets03-07.png">
+                  </div>
+                </div>
+                <div class="row visible-sm visible-xs">
+                  <div class="col-sm-12">
+                    <img src="assets/PNG/all_assets03-07.png">
+                  </div>
+                  <div class="col-sm-12">
+                     <h2 > Share and collaborate </h2>
+                    <p> Share and license your map data to
+                    internal and external users and partners.<br>
+                    Add data from third parties.<br>
+                    Collaborate within teams and across
+                    organisations.</p>
                   </div>
                 </div>
               </div>
@@ -313,8 +425,8 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                <div class="row hidden-sm hidden-xs">
+                  <div class="col-md-6">
                     <h2> Cities </h2>
                     <ul> 
                       <li><p>Car parking</p></li>
@@ -326,14 +438,31 @@
                       <li><p>Taxi and travel company sub licensing</p></li>
                     </ul>
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 ">
                     <img src="assets/PNG/all_assets03-07.png">
+                  </div>
+                </div>
+                <div class="row visible-sm visible-xs">
+                  <div class="col-sm-12">
+                    <img src="assets/PNG/all_assets03-07.png">
+                  </div>
+                  <div class="col-sm-12">
+                    <h2> Cities </h2>
+                    <ul> 
+                      <li><p>Car parking</p></li>
+                      <li><p>Council services</p></li>
+                      <li><p>Cycling and public transport</p></li>
+                      <li><p>Roadworks tracking</p></li>
+                      <li><p>Tourism, business and retail zone views</p></li>
+                      <li><p>Infrastructure and asset monitoring</p></li>
+                      <li><p>Taxi and travel company sub licensing</p></li>
+                    </ul>                  
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                <div class="row hidden-sm hidden-xs">
+                  <div class="col-md-6 ">
                     <h2> Airport &amp; Retail </h2>
                     <ul>
                       <li><p> Flight tracker </p></li>
@@ -342,20 +471,40 @@
                       <li><p> Baggage tracking</p> </li>
                       <li><p> Retailer advertising module </p></li>
                       <li><p> Office and staff area maps</p> </li>
-                      <li><p> Hotel, travel and taxi company modules</p> </li><br>
+                      <li><p> Hotel, travel and taxi company modules</p> </li>
                       <li><p> Retailer multi-site: shopping &amp; advertising layers </p></li>
                       <li><p> Points of interest layers and tourist guides </p></li>
                       <li><p> Conference and events module </p></li>
                     </ul>
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 ">
                     <img src="assets/PNG/all_assets03-08.png">
+                  </div>
+                </div>
+                <div class="row visible-sm visible-xs">
+                  <div class="col-sm-12">
+                    <img src="assets/PNG/all_assets03-08.png">
+                  </div>
+                  <div class="col-sm-12">
+                    <h2> Airport &amp; Retail </h2>
+                    <ul>
+                      <li><p> Flight tracker </p></li>
+                      <li><p> Passenger tracker and messenger</p> </li>
+                      <li><p> No more missed departure slots</p> </li>
+                      <li><p> Baggage tracking</p> </li>
+                      <li><p> Retailer advertising module </p></li>
+                      <li><p> Office and staff area maps</p> </li>
+                      <li><p> Hotel, travel and taxi company modules</p> </li>
+                      <li><p> Retailer multi-site: shopping &amp; advertising layers </p></li>
+                      <li><p> Points of interest layers and tourist guides </p></li>
+                      <li><p> Conference and events module </p></li>
+                    </ul>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                <div class="row hidden-sm hidden-xs">
+                  <div class="col-md-6">
                     <h2> Buildings </h2>
                     <ul>
                       <li> <p> IoT data visualisation </p> </li>
@@ -366,19 +515,44 @@
                       <li> <p>Guide and visitor services</p> </li>
                     </ul>
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6">
                     <img src="assets/PNG/all_assets03-09.png">
+                  </div>
+                </div>
+                <div class="row visible-sm visible-xs">
+                  <div class="col-sm-12">
+                    <img src="assets/PNG/all_assets03-09.png">
+                  </div>
+                  <div class="col-sm-12">
+                    <h2> Buildings </h2>
+                    <ul>
+                      <li> <p> IoT data visualisation </p> </li>
+                      <li> <p>Room-booking module</p> </li>
+                      <li> <p>Hot desking module</p> </li>
+                      <li> <p>Building services and</p> </li>
+                      <li> <p>facilities teams</p> </li>
+                      <li> <p>Guide and visitor services</p> </li>
+                    </ul>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="row">
-                  <div class="col-md-6 col-xs-12">
+                <div class="row hidden-sm hidden-xs">
+                  <div class="col-md-6">
                     <h2> Cities </h2>
                     <p> Find more... </p>
                   </div>
-                  <div class="col-md-6 col-xs-12">
+                  <div class="col-md-6 ">
                     <img src="assets/PNG/all_assets03-10.png">
+                  </div>
+                </div>
+                <div class="row visible-sm visible-xs">
+                  <div class="col-sm-12">
+                    <img src="assets/PNG/all_assets03-10.png">
+                  </div>
+                  <div class="col-sm-12">
+                    <h2> Cities </h2>
+                    <p> Find more... </p>
                   </div>
                 </div>
               </div>
@@ -389,14 +563,15 @@
       <div class="section" id="section-clients">
         <h1> Our clients </h1>
         <div class="section-content">
+          <img src="assets/PNG/p7_layout_name.png">
         </div>
       </div>
       <div class="section" id="section-partners">
         <h1>Our partners</h1>
         <div class="section-content">
           <div class="row">
-            <div class="col-md-6 col-xs-12">
-              <div class="col-xs-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="col-sm-6 col-xs-6">
                 <img src="assets/PNG/all_assets03-19.png">
                 <h2> Wayfinding strategy </h2>
                 <p> World-class city-wide
@@ -404,22 +579,22 @@
                 sensors.
                 </p>
               </div>
-              <div class="col-xs-6">
+              <div class="col-sm-6 col-xs-6">
                 <img src="assets/PNG/all_assets03-20.png">
                 <h2>Transit data</h2>
                 <p>Add transit data from around
                 the world.</p>
               </div>
             </div>
-            <div class="col-md-6 col-xs-12">
-              <div class="col-xs-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="col-sm-6 col-xs-6">
                 <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=100x400&w=400&h=100">
                 <h2>Big data analytics</h2>
                 <p>Model site usage using
                 powerful time- and motion
                 analytics platform.</p>
               </div>
-              <div class="col-xs-6">
+              <div class="col-sm-6 col-xs-6">
                 <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=100x400&w=400&h=100">
                 <h2>Sponsored content</h2>
                 <p>Add advertising and other
@@ -429,14 +604,14 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6 col-xs-12">
-              <div class="col-xs-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="col-sm-6 col-xs-6">
                 <img src="assets/PNG/all_assets03-21.png">
                 <h2>Indoor location</h2>
                 <p> Works with Apple Indoor
                 location positioning. </p>
               </div>
-              <div class="col-xs-6">
+              <div class="col-sm-6 col-xs-6">
                 <img src="assets/PNG/all_assets03-23.png">
                 <h2>NASA technology</h2>
                 <p>Built using NASA engineering
@@ -444,14 +619,14 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-6 col-xs-12">
-              <div class="col-xs-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="col-sm-6 col-xs-6">
                 <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=100x400&w=400&h=100">
                 <h2>Hotels</h2>
                 <p>Reviews and booking
                 functions.</p>
               </div>
-              <div class="col-xs-6">
+              <div class="col-sm-6 col-xs-6">
                 <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=100x400&w=400&h=100">
                 <h2>Restaurants</h2>
                 <p>Reviews and booking
@@ -460,14 +635,14 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6 col-xs-12">
-              <div class="col-xs-6">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="col-sm-6 col-xs-6">
                 <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=100x400&w=400&h=100">
                 <h2> Internet of Things </h2>
                 <p> Visualise data from building 
                 sensors. </p>
               </div>
-              <div class="col-xs-6">
+              <div class="col-sm-6 col-xs-6">
                 <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=100x400&w=400&h=100">
                 <h2>Signage
                 Management</h2>
@@ -475,8 +650,8 @@
                 sensors.</p>
               </div>
             </div>
-            <div class="col-md-6 col-xs-12">
-              <div class="col-xs-6">
+            <div class="col-md-6 col-sm-12  col-xs-12">
+              <div class="col-sm-6 col-xs-6">
                 <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=100x400&w=400&h=100">
                 <h2>Security tagging</h2>
                 <p>Track and see security systems.</p>
@@ -489,35 +664,35 @@
         <h1> Contact us to find out more </h1>
         <div class="section-content">
           <div class="row">
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-3 col-sm-6 col-xs-6">
               <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400x400&w=400&h=400">
-              <div style="height:150px">
+              <div class="text-contact" >
                 <h2>Find out how we can
                 make your site or
                 city smarter</h2>
               </div>
               <p><a href="mailto: info@livingmap.com">info@livingmap.com</a></p>
             </div>
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-3 col-sm-6 col-xs-6">
               <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400x400&w=400&h=400">
-              <div style="height:150px">
+              <div class="text-contact" >
                 <h2>Want to integrate
                 your platform into
                 our maps?</h2>
               </div>
               <p><a href="mailto: partner@livingmap.com">partner@livingmap.com</a></p>
             </div>
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-3 col-sm-6 col-xs-6">
               <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400x400&w=400&h=400">
-              <div style="height:150px">
+              <div class="text-contact" >
                 <h2>Technical and
                 corporate stuff</h2>
               </div>
               <p><a href="mailto: info@livingmap.com">info@livingmap.com</a></p>
             </div>
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-3 col-sm-6 col-xs-6">
               <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=400x400&w=400&h=400">
-              <div style="height:150px">
+              <div class="text-contact" >
                 <h2>Want to join
                 our team?
                 We’re hiring!</h2>
@@ -536,11 +711,11 @@ function set_gradient_height(height) {
   $("#header").animate({"height": height }, 700);
 }
 
-$('#next-page-button').click(function(){
+$('.next-page-button').click(function(){
     $.fn.fullpage.moveSectionDown();
 });
 
-$('#first-page-button').click(function() {
+$('.first-page-button').click(function() {
     $.fn.fullpage.moveTo(1,0);
 });
 
@@ -553,7 +728,7 @@ function initialize(){
       anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
       verticalCentered: false,
       resize : false,
-      navigation: true,
+      navigation: false,
       navigationPosition: 'right',
       autoScrolling:true, // False si queremos que no salte de a una pantalla
       scrollOverflow: true,
@@ -575,6 +750,10 @@ function initialize(){
             $("#footer").fadeIn()
           }
       }
+  });
+
+  $('.carousel').carousel({
+    interval: 2000
   });
 };
 
