@@ -55,7 +55,7 @@ p {
   display:block;
   width: 100%;
   background: #333;
-  z-index:9;
+  z-index:2;
   text-align:center;
   color: #f2f2f2;
   padding: 20px 0 0 0;
@@ -124,7 +124,7 @@ p {
 
 /* Section 1 */
 #section1 {
-  background-image: url("dummy-background.jpg");
+  background: url("PNG/p1.jpg") ; 
   background-size: cover;
   /*background: -moz-linear-gradient(top, #003c4d 0%, #ffffff 10em, #f2f2f2  10em, #f2f2f2 100%),  url("dummy-background.jpg")  no-repeat ; /* FF3.6-15 */*/
   /*background:  -webkit-linear-gradient(top, #003c4d 0%,#ffffff 10em,#f2f2f2  10em,#f2f2f2 100%), url("dummy-background.jpg")  no-repeat ; /* Chrome10-25,Safari5.1-6 */*/
@@ -140,8 +140,8 @@ p {
 
 /* Section 2 */
 #section2 {
-  background-image: url("dummy-background.jpg");
-  background-size: cover;
+  background: url("PNG/p2.jpg") no-repeat;
+  background-size: 70% 100% ;
 }
 
 #section2 h1{
