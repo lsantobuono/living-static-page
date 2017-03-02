@@ -115,6 +115,9 @@
     height: auto;
   }
 
+  #section4 {
+    background: #f2f2f2;
+  }
   /* Section Carto Engine */
   #section-carto-engine .carousel-indicators {
     left: 15%;
