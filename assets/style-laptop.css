@@ -109,8 +109,8 @@
   
 
   #section1 {
-    background-size: 100% 130% ;
-    background-position: top center;
+    background-size: 100% auto ;
+    background-position: 50% 50%;
   }
   #section2 {
     background-size: 100% auto;

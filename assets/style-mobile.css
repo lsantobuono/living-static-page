@@ -48,8 +48,8 @@
 
   /* Section 1 */
   #section1 {
-    background-size: 200% 100%;
-    background-position: 60% 0 ;
+    background-size: 300% auto;
+    background-position: 50% 50%;
   }
   /* Section 2  */
 
