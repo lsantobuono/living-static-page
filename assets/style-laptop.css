@@ -113,7 +113,8 @@
     background-position: top center;
   }
   #section2 {
-    background-size: 100% 130% ;
+    background-size: 100% auto;
+    background-position: 50% 50%;
   }
 
   #section-clients  {

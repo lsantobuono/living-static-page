@@ -182,9 +182,9 @@ p {
   background:  -webkit-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 30%),url("PNG/p2_desktop.jpg"); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 30%),url("PNG/p2_desktop.jpg"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
-  background-size: 100% 100% ;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position:top right;
+  background-position:50% 44%;
 
 }
 
