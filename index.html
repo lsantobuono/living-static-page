@@ -41,12 +41,15 @@
   <body>
     <!-- Fixed Navbar  -->
     <nav id="header" >
-      <div class="navbar-left">
-        <img class="hidden-sm hidden-xs first-page-button" src="assets/SVG/all_assets03-18.svg">
-        <img class="visible-sm visible-xs first-page-button" src="assets/PNG/arrow_up.png">
-      </div>
-      <div class="navbar-right">
-        <div id="last-page-button">Contact</div>
+      <div class="gradient"></div>
+      <div class="header-container">
+        <div class="navbar-left">
+          <img class="hidden-sm hidden-xs first-page-button" src="assets/SVG/all_assets03-18.svg">
+          <img class="visible-sm visible-xs first-page-button" src="assets/PNG/arrow_up.png">
+        </div>
+        <div class="navbar-right">
+          <div id="last-page-button">Contact</div>
+        </div>
       </div>
     </nav>
 
@@ -709,14 +712,25 @@ function set_gradient_height(height) {
 }
 
 function remove_header_css() {
-  $("#header").css("background","none");
+  // $("#header .gradient").css("background","none");
+  // $("#header .gradient").css("opacity",0);
+  $("#header .gradient").animate({"opacity":0}, 900);
 }
 
 function reset_header_css() {
-  $("#header").css("background","none");
-  $("#header").css("background","-moz-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* FF3.6-15 */
-  $("#header").css("background","-webkit-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* Chrome10-25,Safari5.1-6 */
-  $("#header").css("background","linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  $("#header .gradient").animate({"opacity":1}, 700);
+  $("#header .gradient").css("background","none");
+  $("#header .gradient").css("background","-moz-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* FF3.6-15 */
+  $("#header .gradient").css("background","-webkit-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* Chrome10-25,Safari5.1-6 */
+  $("#header .gradient").css("background","linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
+}
+function reset_header_css_2() {
+  $("#header .gradient").animate({"opacity":1}, 150);
+  $("#header .gradient").css("background","none");
+  $("#header .gradient").css("background","-moz-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* FF3.6-15 */
+  $("#header .gradient").css("background","-webkit-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* Chrome10-25,Safari5.1-6 */
+  $("#header .gradient").css("background","linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   
 }
 
@@ -743,9 +757,18 @@ function initialize(){
       scrollOverflow: true,
       css3: true,
       onLeave: function  (index, nextIndex, direction) {
+        // reset_header_css();  
+        if($.inArray(nextIndex, [1, 2]) > -1) {
+          set_gradient_height("10em");
+          if($.inArray(index, [1, 2]) > -1) {
+            reset_header_css_2();
+            setTimeout(remove_header_css, 150)
+          } else {
+            remove_header_css();
+          }
+        } else {
+          set_gradient_height("4em")
           reset_header_css();
-
-        if($.inArray(nextIndex, [3, 9]) > -1) {
         }
       },
       afterLoad: function (anchorLink, index){
@@ -753,11 +776,11 @@ function initialize(){
 
           //using index
           if($.inArray(index, [1, 2]) > -1) {
-            set_gradient_height("10em");
-            remove_header_css();
+            // set_gradient_height("10em");
+            // remove_header_css();
           } else {
-            set_gradient_height("4em")
-            reset_header_css();
+            // set_gradient_height("4em")
+            // reset_header_css();
           }
 
           //If last slide i hide footer

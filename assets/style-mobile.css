@@ -57,6 +57,17 @@
     background-size: 180% 90%;
     background-position: 80% 0 ;
   }
+
+  #section2 {
+  background: -moz-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 30%) , url("PNG/p2.jpg"); /* FF3.6-15 */
+  background:  -webkit-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 30%),url("PNG/p2.jpg"); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 30%),url("PNG/p2.jpg"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  background-position:top left;
+  }
+
   #section2 .row {  
     margin-top:12em;
   }
