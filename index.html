@@ -732,9 +732,6 @@ $('#last-page-button').click(function() {
     $.fn.fullpage.moveTo(9,0);
 });
 
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 function initialize(){
   $("#fullpage").fullpage({
@@ -746,7 +743,10 @@ function initialize(){
       scrollOverflow: true,
       css3: true,
       onLeave: function  (index, nextIndex, direction) {
-        reset_header_css();  
+          reset_header_css();
+
+        if($.inArray(nextIndex, [3, 9]) > -1) {
+        }
       },
       afterLoad: function (anchorLink, index){
           var loadedSection = $(this);
