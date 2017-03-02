@@ -266,7 +266,7 @@ p {
 
 #section-clients  {
   background: url("PNG/p7_layout_name.png") no-repeat;
-  background-size: 100% 70%;
+  background-size: cover;
   background-position: bottom center;
 }
 
