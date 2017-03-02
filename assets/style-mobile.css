@@ -1,7 +1,56 @@
 
+
+/* Iphone 5 and smaller*/
+
+@media (max-width:320px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
+  }
+
+  #section2 .carousel-indicators {
+    top: 35px;
+  }
+
+  #section2 .carousel {
+    padding-top:  4em;
+  }
+
+  #section-living-map .carousel-indicators {
+    top: 220px;
+  }
+
+  #section-carto-engine .carousel-indicators {
+    top: 180px;
+  }
+
+  #section-carto-engine img {
+    max-height: 150px;
+    margin-bottom: 4em;
+  }
+
+  #section-places img {
+    max-height: 140px;
+    margin-bottom: 2em;
+  }
+
+  #section-places .carousel-indicators {
+    top: 150px;
+  }
+
+  #section-partners img {
+      max-height: 30px;
+  }
+}
+
 /* Responsive mobile Ipad Mini and smaller*/
 
-@media (max-width:768px) {
+@media (max-width:768px) and (orientation:portrait ) {
   h1 {
     font-size: 2em;
     padding: 0 20px 0 20px;
@@ -146,10 +195,11 @@
   }
  
   /* Section Clients */
-  #section-clients img {
-    width: auto;
+  #section-clients  {
+    background: url("PNG/p7_layout_name.png") no-repeat;
+    background-size: 280% 80%;
+    background-position: 0% 100%;
   }
-
   /* Section Contact */
   #section-contact img {
     width:100%;
@@ -166,52 +216,28 @@
   }
 }
 
+/* Ipad correction mobile style*/
 
-
-/* Iphone 5 and smaller*/
-
-@media (max-width:320px) {
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  p {
-    font-size: 1em;
-  }
-
-  #section2 .carousel-indicators {
-    top: 35px;
-  }
-
+@media (max-width:768px) and (min-height:860px)
+{
   #section2 .carousel {
-    padding-top:  4em;
+    padding-top :35em;
+  }
+  
+  #section2 .carousel-indicators {
+    top: 470px;
+  }
+
+  #section-living-map .section-content {
+    height:100%;
   }
 
   #section-living-map .carousel-indicators {
-    top: 220px;
+    top: 455px;
   }
 
-  #section-carto-engine .carousel-indicators {
-    top: 180px;
-  }
-
-  #section-carto-engine img {
-    max-height: 150px;
-    margin-bottom: 4em;
-  }
-
-  #section-places img {
-    max-height: 140px;
-    margin-bottom: 2em;
-  }
-
-  #section-places .carousel-indicators {
-    top: 150px;
-  }
-
-  #section-partners img {
-      max-height: 30px;
+  #section4 img {
+    width: 100%;
+    height:225px;
   }
 }

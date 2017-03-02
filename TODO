@@ -15,14 +15,14 @@ FALTA
 
 FALTA +
 
-" The information is to slide in from left " En los carruseles dice eso, pero el carrusel va a la derecha a la izq dependiedno que lado le quede mas cerca, nose si se puede forzar que siempre venga de la izq. tipo dando toda la vuelta
+	" The information is to slide in from left " En los carruseles dice eso, pero el carrusel va a la derecha a la izq dependiedno que lado le quede mas cerca, nose si se puede forzar que siempre venga de la izq. tipo dando toda la vuelta
+	Tema Fuente: El loco nos pasó un montón de fuentes, yo elegí la que me pareció mas símilar al pdf, y la verdad creo que es la misma que se usa siempre, no veo bold nunca.
+	las backgroudn images no se ajustan bien, creo que tienee que ver con que las imagenes son cuadradas, entonces no se puede hacer que se ajuste bien a la pantalla? O quiza si, ni idea... quedaron un poco mejor
 
-Tema Fuente: El loco nos pasó un montón de fuentes, yo elegí la que me pareció mas símilar al pdf, y la verdad creo que es la misma que se usa siempre, no veo bold nunca.
 
-Responsive.. Probar distintos telefonos del chrome iphone5,6 S6,S5? , IPAD, laptop... firefox tambien , Iexplorer?
-	Hice bastante de mobile... sigue viendose bastante mal en apaisado (de cualquier celular) , y en las pantallas tipo IPAD, sobretodo los carruseles
+Tema responsive se ve bastante bien casi todo.. MENOS landscape de celulares normales tipo s6, habria que hacerlo tomar la regla tipo las del ipad, creo... y a lo mejor ajustar un poco
+
 
 La flecha al final de un slide que se alarga queda mal, ej en mobile pantalla de partners, la pantalla se estira pero como esta fixed se ve a mitad de camino.
-las backgroudn images no se ajustan bien, creo que tienee que ver con que las imagenes son cuadradas, entonces no se puede hacer que se ajuste bien a la pantalla? O quiza si, ni idea... quedaron un poco mejor
 que todas las cosas tengan mas z-index que la navbar ,menos los background, no pude lograr esto.. Sobretodo es importante para los titulos de slider 1, y 2 que se tapan mucho.
 El cambio del gradiente podria ser un poco mas lento o esperar medio segundo, para que se note mas .

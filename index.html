@@ -562,9 +562,6 @@
       </div>
       <div class="section" id="section-clients">
         <h1> Our clients </h1>
-        <div class="section-content">
-          <img src="assets/PNG/p7_layout_name.png">
-        </div>
       </div>
       <div class="section" id="section-partners">
         <h1>Our partners</h1>
@@ -725,10 +722,9 @@ $('#last-page-button').click(function() {
 
 function initialize(){
   $("#fullpage").fullpage({
-      anchors: ['section1', 'section2', 'section-living-map', 'section4', 'section-carto-engine', 'section-places', 'section-clients', 'section-partners', 'section-contact'],
       verticalCentered: false,
       resize : false,
-      navigation: false,
+      navigation: true,
       navigationPosition: 'right',
       autoScrolling:true, // False si queremos que no salte de a una pantalla
       scrollOverflow: true,

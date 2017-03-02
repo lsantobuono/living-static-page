@@ -178,7 +178,7 @@ p {
 /* Style for Carto Engine Carrousel */
 #section-carto-engine .carousel-indicators {
   left: 0px;
-  top: 260px;
+  top: 290px;
   right: initial;
   margin-left: initial;
   width: 260px;
@@ -216,9 +216,12 @@ p {
   padding-bottom:0;
 }
 
-#section-clients img {
-  max-height: 80vh;
+#section-clients  {
+  background: url("PNG/p7_layout_name.png") no-repeat;
+  background-size: 100% 80%;
+  background-position: 0% 100%;
 }
+
 #section-clients .section-content {
   padding-top: 0;
   margin: 0;
