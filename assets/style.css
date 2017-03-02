@@ -36,7 +36,7 @@ p {
 }
 
 .section {
-  padding-top: 7%;
+  padding-top: 10%;
   background-color: #fafafa ;
 }
 
@@ -173,7 +173,7 @@ p {
 
   background-size: 100% 100% ;
   background-repeat: no-repeat;
-  background-position:top left;
+  background-position:top right;
 
 }
 
@@ -313,4 +313,20 @@ p {
 
 .text-contact {
   height:150px;
+}
+
+
+@media screen and (device-aspect-ratio: 16/9), screen and (device-aspect-ratio: 16/10) { 
+  
+  .section {
+    padding-top: 7%;
+  }
+  
+  #section1 {
+    background-size: 100% 130% ;
+    background-position: top center;
+  }
+  #section2 {
+    background-size: 100% 130% ;
+  }
 }
