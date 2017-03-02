@@ -195,6 +195,20 @@
   }
 }
 
+@media (max-width:768px) and (orientation:portrait ) and (min-height:700px) and (max-height: 859px){
+  #section-living-map img {
+    margin-bottom: 25%;
+  }
+
+  #section-carto-engine img {
+    margin-bottom: 25%;
+  }
+
+  #section-places img {
+    margin-bottom: 25%;
+  }
+}
+
 /* Ipad correction mobile style*/
 
 @media (max-width:768px) and (min-height:860px)
