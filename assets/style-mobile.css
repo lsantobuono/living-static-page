@@ -5,7 +5,7 @@
 @media (max-width:768px) and (orientation:portrait ) {
   h1 {
     font-size: 2em;
-    padding: 0 20px 0 20px;
+    padding: 20px 20px 20px 20px;
   }
 
   h2 {
@@ -118,20 +118,20 @@
   /* Section Carto Engine */
   #section-carto-engine .carousel-indicators {
     left: 15%;
-    top: 44%;
+    top: 40%;
     right: initial;
     margin-left: initial;
   }
 
   #section-carto-engine img {
-    max-height: 220px;
+    max-height: 200px;
     width: auto;
     padding-left: 0;
 
     margin-right: auto;
     margin-left: auto;
     display:block;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
   }
 
   /* Section places */
@@ -213,6 +213,17 @@
 
 @media (max-width:768px) and (min-height:860px)
 {
+
+
+  .section {
+    padding-top: 10%;
+
+    background: -moz-linear-gradient(top,    #ffffff 0%, #ffffff 10%, #f2f2f2 11%, #f2f2f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 10%, #f2f2f2 11%, #f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,   #ffffff 0%, #ffffff 10%, #f2f2f2 11%, #f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+
+
   #section2 .carousel {
     padding-top :35em;
   }
@@ -221,16 +232,25 @@
     top: 470px;
   }
 
+  #section-living-map .carousel-indicators{
+    top:30%;
+  }
+  #section-living-map img{
+    margin-bottom: 20%;
+    max-height: 400px;
+  }
+
+
   #section-carto-engine .carousel-indicators{
-    top:32%;
+    top:40%;
+  }
+  #section-carto-engine img{
+    margin-bottom: 20%;
+    max-height: 300px;
   }
 
   #section-living-map .section-content {
     height:100%;
-  }
-
-  #section-living-map .carousel-indicators {
-    top: 455px;
   }
 
   #section-places p {
@@ -239,10 +259,11 @@
 
   #section-places img {
     margin-bottom: 10em;
+    max-height:250px;
   }
 
   #section-places .carousel-indicators {
-    top: 27%;
+    top: 35%;
   }
 
   #section4 img {

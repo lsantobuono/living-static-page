@@ -11,18 +11,22 @@ body {
 h1 {
   margin: 0;
   padding: 0;
-  padding: 40px;
-  /*background-color: white;*/
+  padding: 50px;
   color: #003c4d;
-  font-size: 2.8em;
+  font-size: 2.2em;
   padding-left:15%;
+
+  background: -moz-linear-gradient(top,    #ffffff 0%, #ffffff 80%, #f2f2f2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 80%, #f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,   #ffffff 0%, #ffffff 80%, #f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
 }
 
 h2 {
   margin: 0;
   padding: 0;
   color: #f1662b;
-  font-size: 2.8em;
+  font-size: 2em;
 }
 
 p {
@@ -37,8 +41,11 @@ p {
 
 .section {
   padding-top: 10%;
-  background-color: #fafafa ;
-}
+
+  background: -moz-linear-gradient(top,    #ffffff 0%, #ffffff 22%, #f2f2f2 23%, #f2f2f2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 22%, #f2f2f2 23%, #f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,   #ffffff 0%, #ffffff 22%, #f2f2f2 23%, #f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
 
 .section-content {
   margin-left: 15%;
@@ -124,7 +131,7 @@ p {
 #header .header-container {
   padding-left: 15%;
   padding-right: 15%;
-  padding-top: 20px;
+  padding-top: 0px;
   font-weight: bold;
   position: absolute;
   top: 20px;
@@ -255,8 +262,12 @@ p {
 
 #section-clients  {
   background: url("PNG/p7_layout_name.png") no-repeat;
-  background-size: 100% 75%;
+  background-size: 100% 70%;
   background-position: bottom center;
+}
+
+#section-clients h1{
+  background:none;
 }
 
 #section-clients .section-content {
@@ -298,7 +309,7 @@ p {
 }
 
 #section-contact h2 {
-  font-size:2.5em;
+  font-size:2em;
   margin-bottom: 2em;
 }
 
@@ -313,20 +324,4 @@ p {
 
 .text-contact {
   height:150px;
-}
-
-
-@media screen and (device-aspect-ratio: 16/9), screen and (device-aspect-ratio: 16/10) { 
-  
-  .section {
-    padding-top: 7%;
-  }
-  
-  #section1 {
-    background-size: 100% 130% ;
-    background-position: top center;
-  }
-  #section2 {
-    background-size: 100% 130% ;
-  }
 }
