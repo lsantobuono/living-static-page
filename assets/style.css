@@ -11,7 +11,7 @@ body {
 h1 {
   margin: 0;
   padding: 0;
-  padding: 50px;
+  padding: 40px;
   color: #003c4d;
   font-size: 2.5em;
   padding-left:15%;
@@ -46,10 +46,22 @@ h3 {
   font-size: 1.7em;
 }
 
-
 p {
   color: #003c4d;
-  font-size: 2em;
+  font-size: 1.2em;
+}
+
+  
+#section-living-map p {
+  font-size:1.4em;
+}
+
+#section-carto-engine p {
+  font-size:1.4em;
+}
+
+#section-places p {
+  font-size:1.4em;
 }
 
 
@@ -58,7 +70,7 @@ p {
 }
 
 .section {
-  padding-top: 10%;
+  padding-top: 6em;
 
   background: -moz-linear-gradient(top,    #ffffff 0%, #ffffff 22%, #f2f2f2 22%, #f2f2f2 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 22%, #f2f2f2 22%, #f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
@@ -161,9 +173,9 @@ p {
   width: 100%;
   opacity: 0;
   background: none;
-  background: -moz-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-  background:  -webkit-linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #003c4d 1em, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(to bottom, #003c4d 10%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background:  -webkit-linear-gradient(to bottom, #003c4d 10%, rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #003c4d 10%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 }
 
@@ -209,10 +221,6 @@ p {
   padding-top:0 ;
 }
 
-#section2 p {
-  font-size: 1.7em;
-}
-
 /* Section Living Map */
 
 #section-living-map .section-content {
@@ -246,9 +254,6 @@ p {
 
 #section4 .image-container {
   height:250px;
-}
-#section4 p {
-  font-size: 1.7em;
 }
 
 /* Section Carto engine */
@@ -335,9 +340,6 @@ p {
   font-size:1.5em;
 }
 
-#section-partners p {
-  font-size: 1em;
-}
 
 #section-partners .image-container {
   height:60px;
@@ -374,10 +376,6 @@ p {
 #section-contact a:hover, a:visited, a:link, a:active {
   text-decoration: none;
   color:  #003c4d;
-}
-
-#section-contact p {
-  font-size: 1.5em;
 }
 
 .text-contact {

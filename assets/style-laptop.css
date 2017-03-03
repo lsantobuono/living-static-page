@@ -103,10 +103,26 @@
 /* Smaller landscapes like MDPI Laptop */
 
 @media (max-width:1441px) and (min-width: 769px) and (max-height:899px)  {
-  p {
-    font-size:1em !important;
-  }
   
+  p {
+    color: #003c4d;
+    font-size: 1.2em;
+  }
+
+    
+  #section-living-map p {
+    font-size:1.4em;
+  }
+
+  #section-carto-engine p {
+    font-size:1.4em;
+  }
+
+  #section-places p {
+    font-size:1.4em;
+  }
+
+
 }
 
 
@@ -114,9 +130,8 @@
 @media screen and (min-device-aspect-ratio: 1360/768),screen and (max-device-aspect-ratio: 16/10) and (min-width: 769px) { 
   
   .section {
-    padding-top: 7%;
+    padding-top: 6em;
   }
-  
 
   #section1 {
     background-size: 100% auto ;
