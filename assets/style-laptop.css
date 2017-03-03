@@ -18,6 +18,13 @@
     font-size: 1.5em;
   }
 
+  h3 {
+    margin: 0;
+    padding: 0;
+    color: #f1662b;
+    font-size: 1.3em;
+  }
+
   p {
     font-size:1.2em;
   }
@@ -84,7 +91,7 @@
   }
 
   .text-contact {
-    height:100px;
+    height:70px;
   }
 
 

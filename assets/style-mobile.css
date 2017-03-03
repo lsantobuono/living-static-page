@@ -21,6 +21,13 @@
     font-size: 1.3em;
   }
 
+  h3 {
+    margin: 0;
+    padding: 0;
+    color: #f1662b;
+    font-size: 1.2em;
+  }
+
   p {
     font-size: 1em !important;
   }
@@ -196,7 +203,7 @@
   }
 
   .text-contact {
-    height:100px;
+    height:60px;
   }
 
   #section-contact h2 {

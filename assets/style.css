@@ -30,6 +30,13 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #f1662b;
+  font-size: 1.5em;
+}
+
 #section2 h2 {
   margin-bottom: 0.5em;
   font-size: 1.7em;
@@ -38,6 +45,7 @@ h2 {
 #section4 h2 {
   font-size: 1.7em;
 }
+
 
 p {
   color: #003c4d;
@@ -340,7 +348,6 @@ p {
 }
 
 #section-contact h2 {
-  font-size:2em;
   margin-bottom: 2em;
 }
 
