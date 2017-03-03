@@ -273,7 +273,7 @@ p {
 
 #section-places .carousel-indicators {
   left: 1%;
-  top: 70%; /*520*/
+  top: 65%; /*520*/
   right: initial;
   margin-left: initial;
 }

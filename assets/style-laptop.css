@@ -71,7 +71,7 @@
   /* Section places */ 
 
   #section-places .carousel-indicators {
-    top: 70%;
+    top: 60%;
     right: initial;
     margin-left: initial;
   }
@@ -106,8 +106,8 @@
   
 
   h1 {
-    padding-top: 35px;
-    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-bottom: 55px;
   }
   p {
     color: #003c4d;
