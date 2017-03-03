@@ -216,14 +216,17 @@ p {
 
 /* Section 4 */
 #section4 img {
-  width:auto;
-  height:133px;
+  width:100%;
+  height:auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
   margin-bottom:  3em;
 }
 
+#section4 .image-container {
+  height:200px;
+}
 #section4 p {
   font-size: 1.7em;
 }
@@ -242,6 +245,7 @@ p {
   width: 100%;
 }
 
+
 /* Section Places */
 
 #section-places .carousel-indicators {
@@ -249,6 +253,11 @@ p {
   top: 70%; /*520*/
   right: initial;
   margin-left: initial;
+}
+
+#section-places .col-image {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #section-places  .item { /* without this rule the navigation buttons go missing in some slides */
@@ -266,7 +275,7 @@ p {
 
 #section-clients  {
   background: url("PNG/p7_layout_name.png") no-repeat;
-  background-size: cover;
+  background-size: auto 75%;
   background-position: bottom center;
 }
 
