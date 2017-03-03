@@ -44,6 +44,9 @@
 
 
 
+#section4 .image-container {
+  height:200px;
+}
 
    /* Section Carto Engine */
   #section-carto-engine .carousel-indicators {
