@@ -116,14 +116,14 @@
 
   #section-living-map .carousel-indicators {
     left: 15%;
-    top: 100px;
+    top: 135px;
     right: initial;
     margin-left: initial;
   }
 
    #section-living-map img {
     width: auto;
-    height:120px;
+    height:130px;
     margin-right: auto;
     margin-left: auto;
     display:block;
@@ -340,32 +340,32 @@
   }
 
   #section-living-map .carousel-indicators {
-    top: 180px;
+    top: 135px;
   }
 
   #section-living-map img {
-    max-height: 150px;
+    max-height: 130px;
     margin-bottom: 20%;
   }
 
   #section-carto-engine .carousel-indicators {
-    top: 180px;
+    top: 135px;
   }
 
 
 
   #section-carto-engine img {
-    max-height: 150px;
+    max-height: 130px;
     margin-bottom: 4em;
   }
 
   #section-places img {
-    max-height: 140px;
+    max-height: 130px;
     margin-bottom: 2em;
   }
 
   #section-places .carousel-indicators {
-    top: 150px;
+    top: 135px;
   }
 
   #section-partners img {
