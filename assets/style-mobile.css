@@ -116,7 +116,7 @@
 
   #section-living-map .carousel-indicators {
     left: 15%;
-    top: 120px;
+    top: 100px;
     right: initial;
     margin-left: initial;
   }
@@ -229,6 +229,7 @@
   }
   
   #section-contact img {
+    margin-top: 2em;
     width:100%;
     height:auto;
     margin-bottom: 2em;
