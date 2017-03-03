@@ -171,9 +171,12 @@ p {
   width: 100%;
   opacity: 0;
   background: none;
+  background: -o-linear-gradient(top, #003c4d 0%,#003c4d 10%,#ffffff 100%); /* Opera 11.10-11.50 */
+  background: -ms-linear-gradient(top, #003c4d 0%,#003c4d 10%,#ffffff 100%); /* IE10 preview */
+  background: linear-gradient(to bottom, #003c4d 10%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background: -moz-linear-gradient(to bottom, #003c4d 10%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
   background:  -webkit-linear-gradient(to bottom, #003c4d 10%, rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #003c4d 10%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003c4d', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
 
 }
 
