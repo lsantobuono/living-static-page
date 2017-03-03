@@ -30,6 +30,14 @@ h2 {
   font-size: 2em;
 }
 
+#section2 h2 {
+  font-size: 1.7em;
+}
+
+#section4 h2 {
+  font-size: 1.7em;
+}
+
 p {
   color: #003c4d;
   font-size: 2em;
