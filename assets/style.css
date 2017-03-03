@@ -313,8 +313,7 @@ p {
 /* Section partners */
 
 #section-partners img {
-  width:53.33px;
-  height:40px;
+  width:100%;
   margin-bottom: 4em;
 
   margin-left: auto;
@@ -322,6 +321,12 @@ p {
   display: block;
 
   margin-top: 4em;
+}
+
+#section-partners img::before{
+  display:block;
+  content:"";
+  padding-top:75%;
 }
 
 #section-partners .section-content {
