@@ -28,8 +28,12 @@
     font-size: 1.2em;
   }
 
+  ul li {
+    line-height: 1;
+  }
   p {
     font-size: 1em !important;
+    line-height: 90%;
   }
 
   .carousel h2 {
