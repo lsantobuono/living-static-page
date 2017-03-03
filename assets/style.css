@@ -353,13 +353,15 @@ p {
 
 /* Section contact */
 
+#section-contact .section-content {
+  padding-top:0;
+}
 #section-contact img {
   width:auto;
   height:300px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 2em;
   margin-bottom: 4em;
 
 }
