@@ -92,9 +92,6 @@
     padding-left: 3em
   }
 
-  #section2 .carousel {
-    padding-top:  40%;
-  }
 
   #section2 .carousel h2 {
     margin-bottom: 0.5em;
@@ -103,7 +100,7 @@
 
   #section2 .carousel-indicators {
     left: 15%;
-    top: 110px;
+    top: 0%;
     right: initial;
     margin-left: initial;
   }
