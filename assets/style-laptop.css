@@ -4,7 +4,7 @@
 @media (max-width:1441px) and (min-width: 769px)   {
 
   h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   h2 {
     font-size: 1.5em;
@@ -64,13 +64,6 @@
     width:100%;
     height:auto;
     max-height: 100%;
-  }
-
-
-  /* Section partners */ 
-  #section-partners img {
-    width:auto;
-    height:50px;
   }
 
 
