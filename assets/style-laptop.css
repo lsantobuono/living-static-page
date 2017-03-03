@@ -104,6 +104,11 @@
 
 @media (max-width:1441px) and (min-width: 769px) and (max-height:899px)  {
   
+
+  h1 {
+    padding-top: 35px;
+    padding-bottom: 45px;
+  }
   p {
     color: #003c4d;
     font-size: 1.2em;
