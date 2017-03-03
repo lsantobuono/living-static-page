@@ -11,7 +11,8 @@ body {
 h1 {
   margin: 0;
   padding: 0;
-  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
   color: #003c4d;
   font-size: 2.5em;
   padding-left:15%;
@@ -75,9 +76,6 @@ p {
   background: -moz-linear-gradient(top,    #ffffff 0%, #ffffff 22%, #f2f2f2 22%, #f2f2f2 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 22%, #f2f2f2 22%, #f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,   #ffffff 0%, #ffffff 22%, #f2f2f2 22%, #f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  
- /* background: #f2f2f2;*/
-
   }
 
 .section-content {
@@ -323,9 +321,7 @@ p {
   display: block;
 
   margin-top: 4em;
-
 }
-
 
 #section-partners .section-content {
   padding-top:0;
@@ -333,16 +329,19 @@ p {
 }
 
 #section-partners {
-  background: #f2f2f2;  
+  background: -moz-linear-gradient(top,    #ffffff 0%, #ffffff 13%, #f2f2f2 13%, #f2f2f2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 13%, #f2f2f2 13%, #f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,   #ffffff 0%, #ffffff 13%, #f2f2f2 13%, #f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #section-partners h2 {
   font-size:1.5em;
+  margin-bottom: 10px;
 }
 
 
 #section-partners .image-container {
-  height:60px;
+  height:40px;
   margin-bottom: 4em;
 }
 
