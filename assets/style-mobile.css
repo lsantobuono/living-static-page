@@ -28,6 +28,10 @@
     font-size: 1.2em;
   }
 
+  #footer {
+    padding:10px 0 10px 0;
+  }
+
   ul li {
     line-height: 1;
   }
@@ -119,11 +123,11 @@
 
    #section-living-map img {
     width: auto;
-    height:130px;
+    height:120px;
     margin-right: auto;
     margin-left: auto;
     display:block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
    }
 
