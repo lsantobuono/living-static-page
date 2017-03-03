@@ -81,7 +81,9 @@
   }
 
   #section2 .row {  
-    margin-top:12em;
+    
+    bottom: 0;
+    position: absolute;
   }
 
   #section2 .item {
@@ -117,7 +119,7 @@
 
    #section-living-map img {
     width: auto;
-    height:150px;
+    height:130px;
     margin-right: auto;
     margin-left: auto;
     display:block;
@@ -140,7 +142,7 @@
   }
 
   #section-carto-engine img {
-    max-height: 150px;
+    max-height: 130px;
     width: auto;
     padding-left: 0;
 
@@ -169,7 +171,7 @@
   }
 
   #section-places img {
-    max-height: 150px;
+    max-height: 130px;
     width: auto;
 
     margin-right: auto;
