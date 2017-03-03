@@ -5,7 +5,7 @@
 @media (max-width:768px) and (orientation:portrait ) {
   h1 {
     font-size: 1.5em;
-    padding: 20px 20px 20px 20px;
+    padding: 0 20px 0 20px;
   }
 
   h2 {
@@ -80,8 +80,7 @@
     background-position:87% 27%;
   }
 
-  #section2 .row {  
-    
+  #section2 .row {
     bottom: 0;
     position: absolute;
   }
@@ -109,7 +108,7 @@
 
   #section-living-map .carousel-indicators {
     left: 15%;
-    top: 33%;
+    top: 36%;
     right: initial;
     margin-left: initial;
   }
@@ -133,7 +132,7 @@
   /* Section Carto Engine */
   #section-carto-engine .carousel-indicators {
     left: 15%;
-    top: 30%;
+    top: 37%;
     right: initial;
     margin-left: initial;
   }
@@ -152,7 +151,7 @@
   /* Section places */
   #section-places .carousel-indicators {
     left: 1%;
-    top: 32%;
+    top: 36%;
   }
 
   #section-places .section-content {
